@@ -1,0 +1,31 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "f8 blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namle-github/f8-nodejs-course.git"
+  },
+  "keywords": [
+    "f8",
+    "blog",
+    "nodejs"
+  ],
+  "author": "namla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namle-github/f8-nodejs-course/issues"
+  },
+  "homepage": "https://github.com/namle-github/f8-nodejs-course#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
